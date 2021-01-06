@@ -1,18 +1,36 @@
 body{
     margin: 0px;
+    font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 h1{
-    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 20px;
+    color: #363958;
+
 }
 h2{
-    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+
 }
 p{
     color: dimgray;
+    line-height: 28px;
+    padding-bottom: 30px;
+
 }
 .orange-highlight{
-    color: orange;
+    color: #FF8367;
 }
 .half-width{
     width: 40%;
@@ -23,27 +41,18 @@ p{
 .half-width img{
   width: 100%;  
 }
-.top-banner{
-    background-image: url("image/top-banner.png") ;
-    background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
+
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
+    background-image: linear-gradient( #F46060, #FF8063);
+    border-radius: 6px;
     color: white;
+    font-size: 16px;
     font-weight: 500;
 }
-.dream-area{
-    background-image: url(image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-
+.about {
+    min-height: 500px;
+    padding-bottom: 70px;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
@@ -51,22 +60,176 @@ section{
     height: 70%;
     background-color: white
 }
-.experience-area{
-    background-image: url(image/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.latest-project-wrapper {
+    min-height: 500px;
+    background-color: #F8F9FC;
+    padding-top: 0;
+    height: 814px;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+
+.project{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+    padding:15px;
 }
+
+
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+.cta-image{
+    width: 906px;
+    height: 225px;
+    
+}
 footer p{
    text-align: center; 
    font-size: 12px;
+}
+.container{
+    max-width:1170px;
+    margin:0 auto;
+}
+
+.nav{
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:#3C3C3C;
+    font-size:16px;
+    line-height:24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    margin: 0px 15px;
+}
+
+header.header_area {
+    padding: 40px 0px;
+}
+section.top-banner {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 500px;
+}
+
+.top-banner-first-col{
+    padding-top: 50px;
+}
+
+.about .link-button span img {
+    height: 24px;
+    width: 24px;
+}
+
+.about .link-button span {
+    margin-right:15px;
+}
+.link-button {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    max-width: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img{
+    max-width:100%;
+}
+.lastest-project h2{
+    text-align:center;
+    margin-bottom: 90px;
+    padding-top: 125px;
+}
+
+.project h3 {
+    padding: 0px 5px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    font-size: 22px;
+}
+.project p{
+    padding:0px 5px;
+    margin:0;
+   
+}
+
+.about-second-col{
+    padding-top:50px;
+}
+
+.cta-area{
+    position: relative;
+    max-width: 906px;
+    margin: 0 auto;
+    height: 225px;
+    padding-top: 80px;
+}
+
+.cta-image{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.cta-image img{
+    max-width: 100%;
+}
+
+.cta-area h2{
+    float: left;
+    margin: 0;
+    margin-left: 70px;
+    color: #fff;
+}
+.cta-area a{
+    float: right;
+    margin-right: 65px;
+}
+section.cta-section {
+    padding-top: 100px;
+}
+
+.footer-content h4{
+    color:#696871;
+    font-size:24px;
+    font-weight:700;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+.footer-content p{
+    color:#363958;
+    font-size:36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    padding: 0;
+    margin: 20px 0px;
+}
+
+.footer-content .social-icons a{
+    margin:0px 10px;
+}
+.footer-content .social-icons a img{
+    height:40px;
+    width:40px;
+}
+.footer-content{
+    text-align:center;
+}
+footer.footer-section {
+    padding-bottom: 80px;
 }
