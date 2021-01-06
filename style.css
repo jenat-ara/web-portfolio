@@ -233,3 +233,44 @@ section.cta-section {
 footer.footer-section {
     padding-bottom: 80px;
 }
+.skill-section{
+    min-height:400px;
+}
+
+.skill-content h2{
+    text-align: center;
+}
+
+.skill h3{
+    margin: 0;
+    padding:0;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.skill p{
+    margin: 0;
+    padding:0;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.skill {
+    padding: 30px;
+    width: calc(25% - 60px);
+}
+.skill a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color:#FF8367;
+    font-weight: 600;
+}
+
+.skill-1{
+    border-left:5px solid #FF8367;
+}
+.skill-2{
+    border-left:5px solid rgb(62, 1, 231);
+}
+.skill-3{
+    border-left:5px solid  #04b1b1;
+}
